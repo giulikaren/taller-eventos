@@ -1,5 +1,7 @@
-const Div = document.getElementById('class');
+window.onload= function inicio(){
 
-Div.addEventListener('click', function () {
+document.getElementById('div1').addEventListener('click', function () {
   alert('Hola! Soy el div');
 });
+
+}
